@@ -20,8 +20,7 @@ const BookSearch = () => {
     return () => clearTimeout(timerId);
   }, [query]);
 
-  const addToBookshelf = (book, index, e) => {
-    e.preventDefault();
+  const addToBookshelf = (book, index) => {
     const existingBooks = JSON.parse(localStorage.getItem("bookshelf")) || [];
 
     const bookData = {
