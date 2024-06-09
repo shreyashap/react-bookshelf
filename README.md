@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## 'Git Clone' 
 Clone your project using git clone command or download the zip file and extract it.
 
-## 'npm i' 
+## 'Npm install' 
 After clonning the project. open the terminal and type 'npm i' 
 
 ## 'Npm start' 
